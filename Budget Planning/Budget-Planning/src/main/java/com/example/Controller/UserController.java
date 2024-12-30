@@ -18,7 +18,7 @@ public class UserController {
 
     @GetMapping("/getUser")
     public String getUser(){
-        return "Failure";
+        return "Success";
     }
 
 }
